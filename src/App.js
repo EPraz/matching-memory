@@ -10,11 +10,12 @@ import { setBoard } from './features/board/boardSlice';
 
 const App = () => {
   // Add dispatch variable below
+  const dispatch = useDispatch();
   
 
   const startGameHandler = () => {
     // Add action dispatch below
-    
+    dispatch(setBoard());
   };
 
   const tryAgainHandler = () => {
