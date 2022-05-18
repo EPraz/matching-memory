@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/matching-memory/static/css/main.abd64e84.css",
+    "main.js": "/matching-memory/static/js/main.08808f71.js",
+    "index.html": "/matching-memory/index.html",
+    "main.abd64e84.css.map": "/matching-memory/static/css/main.abd64e84.css.map",
+    "main.08808f71.js.map": "/matching-memory/static/js/main.08808f71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.08808f71.js"
+  ]
+}
