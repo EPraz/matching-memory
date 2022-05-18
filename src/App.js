@@ -5,6 +5,7 @@ import { Board } from './features/board/Board.js';
 // Add import statements below
 import { useDispatch } from 'react-redux';
 import { setBoard } from './features/board/boardSlice';
+import { resetCards } from './features/board/boardSlice';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
 
   const tryAgainHandler = () => {
     // Add action dispatch below
+    dispatch(resetCards())
     
   };
 
